@@ -1,0 +1,92 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Einkaufsliste</title>
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <script src=""></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body class="body-class">
+<h1>Einkaufsliste</h1>
+<form id="eingabe-basisdaten">
+    <label for="user-name">Wer:</label>
+    <input id="user-name" type="text" required placeholder="Wer kauft ein?">
+</form>
+<footer>
+    <hr>
+    <p>"LoP" ist eine interne Website von Yvan Richnel Tchiengue und wurde
+        im Rahmen der zweiten Hausaufgabe von Webbasierte Systeme entwickelt. </p>
+
+    <p>Autor: Yvan Richnel Tchiengue</p>
+    <p>E-Mail: <a href="mailto:yvan.richnel.tchiengue@mni.thm.de">yvan.richnel.tchiengue@mni.thm.de</a></p>
+</footer>
+
+
+</body>
+</html>    -->
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title id="version-title">Einkaufsliste</title>
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <script src="script/index.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+<header>
+    <h1 id="version">Einkaufsliste</h1>
+    <hr>
+</header>
+<main>
+    <section class="as-m-t-b">
+        <div>
+            <form id="eingabe-basisdaten">
+                <label for="user-name">Bearbeiter:in</label>
+                <input id="user-name" type="text" required placeholder="Bearbeiter:in">
+            </form>
+        </div>
+        <div id="lop-liste" class="as-unsichtbar">
+            <h5>LoP-Liste</h5>
+            <div id="lop-create-save" class="as-unsichtbar">
+                <form id="aktionen" class="as-m-t-b">
+                    <label for="aktionen">Aktionen:</label>
+                    <input type="submit" class="as-button" value="neu">
+                    <input type="submit" class="as-button" value="sichern">
+                </form>
+            </div>
+            <table class="as-width-100pc" id="lop-table">
+                <thead id="lop-thead">
+                <tr>
+                    <th class="as-width-15pc" class=zuordnung">Zuordnung</th>
+                    <th class="as-width-70pc" class="aufgabe">Aufgabe</th>
+                    <th class="as-width-15pc" class="datum">Datum</th>
+                </tr>
+                </thead>
+                <tbody id="lop-tbody"></tbody>
+                <tfoot id="lop-tfoot">
+                <tr>
+                    <td></td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+</main>
+<footer>
+    <hr>
+    <p>"LoP" ist eine Website von Yvan Richnel Tchiengue </p>
+
+    <p>Autor: Yvan Richnel Tchiengue </p>
+    <p>E-Mail: <a href="mailto:yvan.richnel.tchiengue@mni.thm.de">yvan.richnel.tchiengue@mni.thm.de</a></p>
+</footer>
+</body>
+</html>
+
+
+
+
+
+

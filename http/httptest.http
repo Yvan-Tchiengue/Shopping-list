@@ -1,0 +1,108 @@
+### create
+POST http://localhost:8080/create
+Content-Type: application/json
+
+{
+  "besitzer" : "Karl",
+  "aufgabe" : "Dies ist eine Aufgabe, die schwierig ist",
+  "datum": "2021-12-11",
+  "status": 1
+}
+
+### create
+POST http://localhost:8080/create
+Content-Type: application/json
+
+{
+  "besitzer" : "Petra",
+  "aufgabe" : "Dies ist eine Aufgabe, die noch schwieriger ist",
+  "datum": "2021-12-20",
+  "status": 1
+}
+### create
+
+POST http://localhost:8080/create
+Content-Type: application/json
+
+{
+  "besitzer" : "Aishe",
+  "aufgabe" : "Hausübung 2 bearbeiten",
+  "datum": "2021-12-17",
+  "status": 1
+}
+
+### create
+POST http://localhost:8080/create
+Content-Type: application/json
+
+{
+  "besitzer" : "Hänschen",
+  "aufgabe" : "Dies ist eine Aufgabe, die etwas leichter ist",
+  "datum": "2021-12-25",
+  "status": 1
+}
+
+### create
+POST http://localhost:8080/create
+Content-Type: application/json
+
+{
+  "besitzer" : "Omar",
+  "aufgabe" : "Lernen für die Klausur",
+  "datum": "2022-01-20",
+  "status": 1
+}
+
+
+### create
+POST http://localhost:8080/create
+Content-Type: application/json
+
+{
+  "besitzer" : "Aishe",
+  "aufgabe" : "Hausübung 2 abgeben",
+  "datum": "2022-01-10",
+  "status": 1
+}
+
+### read
+GET http://localhost:8080/read
+
+### read
+POST http://localhost:8080/read
+POST http://localhost:8080/update
+Content-Type: application/json
+
+{
+  "id_act" : 9
+}
+
+### update
+POST http://localhost:8080/update
+Content-Type: application/json
+
+{
+  "id_act" : 2,
+  "besitzer" : "Paula",
+  "aufgabe" : "Hausübung bearbeiten",
+  "datum": "2021-12-16"
+}
+
+### delete
+POST http://localhost:8080/delete
+Content-Type: application/json
+
+{
+  "id_act" : 9
+}
+
+### save
+GET http://localhost:8080/save
+
+### version
+GET http://localhost:8080/version
+
+
+
+
+
